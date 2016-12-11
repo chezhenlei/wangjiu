@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网酒网-商品列表</title>
+		<link rel="icon" href="http://img0.wangjiu.com/wj.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/same.css" />
+		<link rel="stylesheet" type="text/css" href="css/goodsList.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="js/goodsList.js"></script>
+		<script type="text/javascript"  src="js/jquery.pagination.js"></script>
+		<script type="text/javascript"  src="js/CookieUtil.js"></script>
+		<script type="text/javascript" src="js/same.js"></script>
+	</head>
+	<body>
+	<!--头部引入-->
+	<div id="top_fir"></div>
+	<div id="border"></div>
+	<div id="top_fixed0" style="display: none;"></div>
+	<div id="top_sec0"></div>
+	<div id="side"></div>
+	<!--头部引入-->
+	
+	<!--顶部推荐商品-->
+	<div id="top_list">
+		<ul id="topList"></ul>
+	</div>
+	<!--顶部推荐商品-->
+	
+	<div id="sy">
+		<a href="index.html">首页 > </a>
+		<a href="javascript:;">全部商品</a>
+	</div>
+	
+	<!--菜单-->
+	<div id="goods_menue">
+		<div class="goodsp1">
+			<a class="fir" href="javascript:;">全部商品</a>
+			<a href="javascript:;">商品筛选</a>
+		</div>
+		<div class="goodsp2">
+			<p>品牌：</p>
+			<div>
+			<a href="javascript:;">奥雷姆(Btellas)</a>
+			<a href="javascript:;">安帝山钻石(Diamondes)</a>
+			<a href="javascript:;">阿莲卡(Alianka)</a>
+			<a href="javascript:;">昂首天歌(SIVER HEIGHTS)</a>
+			<a href="javascript:;">艾伦(Arran)</a>
+			<a href="javascript:;">奥尔马(OMAR)</a>
+			<a href="javascript:;">昂首天歌(SIVER HEIGHTS)</a>
+			<a href="javascript:;">艾伦(Arran)</a>
+			<a href="javascript:;">安帝山钻石(Diamondes)</a>
+			<a href="javascript:;">阿莲卡(Alianka)</a>
+			<a href="javascript:;">奥尔马(OMAR)</a>
+			<a href="javascript:;">奥雷姆(Btellas)</a>
+			</div>
+		</div>
+		<div class="goodsp3">
+			<p>分类：</p>
+			<div>
+			<a href="javascript:;">中外名酒</a>
+			<a href="javascript:;">酒周边</a>
+			<a href="javascript:;">饮料冲调</a>
+			<a href="javascript:;">生态智能设备</a>
+			<a href="javascript:;">体育周边</a>		
+			</div>
+		</div>
+		<div class="goodsp4">
+			<p>价格：</p>
+			<div>
+			<a href="javascript:;">0~199</a>
+			<a href="javascript:;">200~299</a>
+			<a href="javascript:;">300~499</a>
+			<a href="javascript:;">500~799</a>
+			<a href="javascript:;">800~999</a>
+			<a href="javascript:;">1000~1999</a>
+			<a href="javascript:;">2000~20000</a>
+			<a href="javascript:;">20000以上</a>
+			</div>
+		</div>
+	</div>
+	<!--菜单-->
+	
+	<!--商品列表-->
+	<div id="goods_list">
+		<div id="top">
+			<p class="topp">默认排序</p>
+			<p>销量</p>
+			<p>价格</p>
+			<p>好评度</p>
+			<p>上架时间</p>
+			<form action="">
+				<input type="checkbox" checked="ture"/><span>自营</span>
+				<input type="checkbox" /><span>促销</span>
+				<input type="checkbox" /><span>包邮</span>
+				<input type="checkbox" /><span>仅显示有货</span>
+			</form>
+			<h5>共有1328件商品|1/32 <span>上一页 </span><span> 下一页</span></h5>
+		</div>
+		<ul id="goodsList">
+			
+		</ul>
+	</div>
+	<!--分页-->
+	<div id="Pagination" class="pagination"></div>
+	<!--商品列表-->
+	
+	<!--底部商品列表-->
+	<div id="bottom_list">
+		<div id="btm_list1">
+			<p class='btmp'>大家在买</p>
+			<p class='btmp2'>最近浏览</p>
+		</div>
+		<div id="btm_list2">
+			<ul id="btm_ul"></ul>
+			<a class="btm_btn btm_btn1">&lt;</a>
+			<a class="btm_btn btm_btn2">&gt;</a>
+		</div>
+	</div>
+	<!--底部商品列表-->
+	
+		
+		
+	<!--底部信息引入-->
+	<div id="footer"></div>
+	<!--底部信息引入-->
+	</body>
+</html>

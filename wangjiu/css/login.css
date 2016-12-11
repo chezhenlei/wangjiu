@@ -1,0 +1,158 @@
+@charset "utf-8";
+html,body,ul,ol,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin: 0;padding: 0;}
+img{border: none;display: block;}
+a{text-decoration: none;color: #333;}
+ul,li{list-style: none;}
+body{font:12px "微软雅黑";color:#666666;border-right: 6px solid #a40c59;}
+/*头部*/
+#top{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#top img{
+	float: left;
+	margin: 30px 0 0px 20px;
+}
+#border{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+#top ul{
+	float: right;
+	color: #a9a9a9;
+	margin-top: 60px;
+}
+#top ul li{
+	float: left;
+	padding: 0 10px;
+	border-right: 1px solid #a9a9a9;
+}
+#top ul .lilast{
+	border: 0;
+}
+#top ul li span:hover{
+	color: #5fa2f0;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*注册框*/
+#form0{
+	width: 100%;
+	background: url(../img/loginbg.jpg) no-repeat 50% 0;
+	height: 483px;
+	overflow: hidden;
+}
+#form{
+	width: 380px;
+	height: 400px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 20px 50px;
+	float: right;
+	margin-right: 100px;
+}
+
+#form input{
+	width: 335px;
+	height: 25px;
+	margin-top: 16px;
+	padding: 10px 0 10px 45px;
+	outline: 0;
+	border: 1px solid #ccc;
+	font-size: 16px;
+}
+#form #phone{
+	margin-top: 3px;
+	background: url(../img/input1.jpg) no-repeat left center;
+}
+#form #pwd{
+	background: url(../img/input2.jpg) no-repeat left center;
+}
+
+#form #sub{
+	width: 380px;
+	height: 45px;
+	background: #009de6;
+	color: #fff;
+	border: 0;
+	font-size: 22px;
+	padding: 0;
+}
+#form #check{
+	height: 12px;
+	width: 12px;
+	margin-top: 5px;
+	display: inline-block;
+	float: left;
+}
+#form #che{
+	width: 380px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 16px;
+}
+#form #che p{
+	width: 100px;
+	padding-left: 20px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+}
+#form #che  span{
+	display: block;
+	float: right;
+	/*text-decoration: underline;*/
+	padding-left: 5px;
+}
+
+#form #che  span a{
+	color: #009de6;
+}
+
+#form #deng{
+	width: 380px;
+}
+#form #deng .p1{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	float: left;
+}
+#form #deng .p2{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	float: right;
+	padding-left: 17px;
+	background: url(../img/smallphone.jpg) no-repeat left center;
+}
+#form #deng .p2 a{
+	color: #009de6;	
+}
+#form .p3{
+	width: 330px;
+	margin: 0 auto;
+	width: ;
+	border-top: 1px solid #eee;
+	margin-top: 28px;
+	position: relative;
+}
+#form .p3 span{
+	display: block;
+	margin-top: -11px;
+	position: absolute;
+	left: 50%;
+	margin-left: -45px;
+	background: #fff;
+	padding: 0 5px;
+}
+#qq{
+	width: 160px;
+	height: 39px;
+	line-height: 39px;
+	background: url(../img/qq.jpg) no-repeat left center;
+	margin: 20px auto;
+	text-align: right;
+}

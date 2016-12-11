@@ -1,0 +1,349 @@
+
+#logo0{
+	width: 100%;
+	background: #fff;
+}
+#logo{
+	/*height: 200px;*/
+	width: 980px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+#logo .img1{
+	float: left;
+	margin-bottom: 12px;
+}
+#logo h2{
+	font-weight: normal;
+	font-size: 20px;
+	height: 90px;
+	line-height: 90px;
+	padding-left: 20px;
+	width: 200px;
+	float: left;
+}
+#logo .img2{
+	float: right;
+}
+#contain{
+	width: 980px;
+	margin: 0 auto;
+	background: #fff;
+	min-height: 200px;
+	margin: 30px auto;
+	padding-bottom: 30px;
+	/*border-bottom: 1px solid #ccc;*/
+	overflow: hidden;
+}
+
+#contain #msg{
+	width: 980px;
+	background: #e3efff;
+	height: 40px;
+	display: none;
+}
+#contain #msg p{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+#contain #msg .p1{
+	width: 380px;
+	text-align: center;
+	margin-right: 80px;
+}
+#contain #msg .p2{
+	width: 120px;
+	text-align: center;
+}
+#contain #msg .p3{
+	width: 150px;
+	text-align: center;
+}
+#contain #msg .p4{
+	width: 80px;
+	text-align: center;
+	padding-left: 40px;
+	text-align: left;
+}
+#contain #msg .p5{
+	width: 80px;
+	text-align: left;
+	padding-left: 27px;
+}
+#contain .mall{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+}
+#contain .mall:hover{
+	color: #A40C59;
+	text-decoration: underline;
+}
+#contain .sy:hover{
+	color: #A40C59;
+	text-decoration: underline;
+}
+#contain ul h2{
+	font-weight: normal;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	position: relative;
+	background: url(../img/cut.png) no-repeat 240px 66px;
+	padding-left: 120px;
+}
+#contain {
+	margin-bottom: 20px;
+}
+#contain ul h2 a{
+	font-size: 14px;
+	color: dodgerblue;
+	position: absolute;
+	left: 48%;
+	top: 31px;
+}
+#contain li{
+	height: 80px;
+	padding: 20px 0;
+	margin: 0px 20px;
+	border-bottom: 1px solid #eee;
+}
+
+#contain img{
+	width: 80px;
+	height: 80px;
+	display: block;
+	float: left;
+	margin: 0 20px;
+}
+#contain .btn1{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 25px 0;
+	
+}
+#contain li a{
+	display: block;
+	float: left;
+	width: 300px;
+	height: 80px;
+	line-height: 80px;
+}
+#contain li span{
+	display: block;
+	float: left;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	margin: 0 40px;
+}
+#contain form{
+	float: left;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 26px;
+	line-height: 80px;
+	border: 1px solid #ccc;
+}
+#contain form .cut,#contain form .add{
+	width: 24px;
+	height: 25px;
+	display: block;
+	float: left;
+	border: 0;
+	background: #fff;
+	font-size: 14px;
+}
+#contain form .txt{
+	width: 50px;
+	height: 25px;
+	display: block;
+	float: left;
+	border: 0;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+#del{
+	height: 80px;
+	line-height: 80px;
+	display: block;
+	float: left;
+	border: 0;
+	background: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	outline: 0;              /* ***新记忆****/
+}
+#del:hover{
+	color: #c01a6d;
+	text-decoration: line-through;
+}
+
+#sum{
+	width: 940px;
+	overflow: hidden;
+	background: #fff;
+	margin: 25px auto;
+	padding: 0 20px;
+	border-top: 2px solid #ca257b;
+}
+#sum p{
+	height: 80px;
+	line-height: 80px;
+	padding: 0 20px;
+	float: left;
+}
+#sum input{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin-top: 33px;
+}
+#sum span{
+	height: 80px;
+	line-height: 80px;
+	display: block;
+	float: left;
+	padding: 0 20px;
+}
+#sum a {
+	height: 80px;
+	line-height: 80px;
+	display: block;
+	float: left;
+	padding-right: 80px;
+}
+#sum button{
+	display: block;
+	float: left;
+	width: 160px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	background: #ca257b;
+	margin: 15px 20px;
+	border: 0;
+	color: #fff;
+	outline: 0;
+}
+#sum #clear:hover{
+	color: #AE1219;
+	text-decoration: line-through;
+}
+
+/*底部商品列表*/
+#bottom_list{
+	width: 1200px;
+	margin: 20px auto;
+}
+#btm_list1{
+	height: 38px;
+	width: 1200px;
+	background: #efefef;
+}
+#btm_list1 p{
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	width: 80px;
+	float: left;
+	cursor: pointer;
+}
+#btm_list1 .btmp2:hover{
+	background: #666;
+	color: #fff;
+}
+#btm_list1 .btmp{
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	width: 80px;
+	color: #fff;
+	background: #A40C59;
+	float: left;
+}
+#btm_list2{
+	width: 1200px;
+	height: 360px;
+	background: #fff;
+	position: relative;
+}
+#btm_list2 .btm_btn{
+	width: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	font-size: 28px;
+	/*background: #CCC;*/
+	opacity: 0.2;
+	cursor: pointer;
+}
+#btm_list2 .btm_btn:hover{
+	background: #CCC;
+}
+#btm_list2 .btm_btn1{
+	left: 20px;
+	top: 50%;
+}
+#btm_list2 .btm_btn2{
+	right: 20px;
+	top: 50%;
+}
+#btm_ul{
+	width: 1070px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#btm_ul li{
+	float: left;
+	width: 190px;
+	height: 288px;
+	padding: 30px 12px;
+}
+#btm_ul img{
+	width: 190px;
+	height: 200px;
+}
+#btm_ul li a{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	line-height: 16px;
+	overflow: hidden;
+	height: 16px;
+	margin: 8px 0 14px;
+}
+#btm_ul li p{
+	width: 190px;
+	text-align: center;
+	font-size: 16px;
+	color: #a40e59;
+}
+#btm_ul li button{
+	background: #a40e59;
+	height: 26px;
+	line-height: 24px;
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	margin: 0 auto;
+	width: 96px;
+	border: 0;
+}
+#btm_ul li button:hover{
+	background: #c4166e;
+}
+
+
+
+
+

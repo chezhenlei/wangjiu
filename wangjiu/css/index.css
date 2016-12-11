@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+/*********************************banner*************************/
+#banner0{
+	margin: 0 auto;
+	background: #f9f9f9;
+	height: 435px;
+}
+#banner{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;	
+}
+
+#banner div{
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#banner div a{
+	width: 1200px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+#banner_nav{
+	height: 5px;
+	width: 270px;
+	margin: 15px auto;
+}
+#banner_nav>div{
+	height: 5px;
+	width: 20px;
+	margin-right: 10px;
+	float: left;
+	background: #9fa0a0;
+	cursor: pointer;
+}
+
+/**********************公告部分***********************/
+#notice0{
+	width: 1200px;
+	margin: 0 auto;
+}
+#notice{
+	/*width: 300px;*/
+	height: 24px;
+	position: relative;
+	overflow: hidden;
+}
+#notice p{
+	width: 80px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 35px;
+	background: url(../img/ico.png) no-repeat left -111px;
+	float: left;
+}
+#notice ul{
+	height: 24px;
+	position: relative;
+	left: 115px;
+}
+
+#notice li{
+	position: absolute;
+	top: 24px;
+	height: 24px;
+	line-height: 24px;
+}
+#notice li a{
+	color: red;	
+}
+
+#notice span{
+	color: #a40c59;
+}
+
+/**************************今日抢购*************************/
+#today_buy0{
+	/*height: 858px;*/
+	width: 100%;
+	background: #f9f9f9;
+}
+#today_buy{
+	/*height: 858px;*/
+	width: 1200px;
+	margin: 0 auto;
+}
+#today_wine{
+	/*height: 718px;*/
+	width: 1200px;
+	/*background: red;*/
+	overflow: hidden;	
+}
+
+#today_wine p{
+	height: 46px;
+	line-height: 46px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+#today_wine .span1{
+	color: #a40c59;
+	margin-left: 40px;
+	padding-left: 20px;
+	background: url(../img/smallclock.jpg) no-repeat left center;
+}
+#today_wine .p2{
+	line-height: 20px;
+	height: 20px;
+	font-size:20px;
+	font-weight: bold;
+	color: #a40c59;
+}
+#today_wine .span2{
+	position: absolute;
+	right: 25px;
+	bottom: 25px;
+	padding-left: 18px;
+	background: url(../img/share.jpg) no-repeat left center;
+}
+#today_wine a:hover .span2{
+	color: #a40c59;
+}
+#today_wine a:hover .p1{
+	color: #a40c59;
+}
+.wine{
+	height: 350px;
+	width: 374px;
+	float: left;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	/*display: inline;*/
+}
+#today_wine .wine_price{
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	font-weight: bold;
+	background: #A40C59;
+	color: #fff;
+	/*padding-left: 20px;*/
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 0;
+	opacity: 0;
+}
+.wine_price span{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0 20px;
+	line-height: 20px;
+}
+.wine1,.wine4{
+	margin-right: 18px;
+}
+.wine3,.wine6{
+	margin-left: 18px;
+}
+.wine2,.wine5{
+	margin: 0 18px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	/*background: red;*/
+	
+}
+.wine1,.wine2,.wine3{
+	margin-bottom: 20px;
+}
+#today_title{
+	height: 140px
+}
+#btm{
+	width: 350px;
+	padding-top: 88px;
+	border-bottom: 1px solid #9fa0a0;
+	float: left;
+	
+}
+#btm2{
+	width: 500px;
+	height: 110px;
+	float: left;
+	padding-top: 30px;
+	text-align: center;
+}
+#today_title p{
+	height: 50px;
+	width: 268px;
+	padding-left: 232px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 22px;
+	background: url(../img/clock.jpg) no-repeat 175px 0;
+}
+#today_title span{
+	text-align: center;
+}
+
+/*****************************热销推荐***************************/
+#hot_sale0{
+	width: 100%;
+	background: #f9f9f9;
+}
+#hot_sale{
+	width: 1200px;
+	margin: 0 auto;
+	background: #f9f9f9;
+}
+#hot_title{
+	height: 140px;
+	text-align: center;
+}
+#hot_title p{
+	font-size: 23px;
+	height: 50px;
+	line-height: 65px;
+}
+#hot_title span{
+	font-size: 14px;
+}
+#hot_img{
+	height: 500px;
+}
+#hot_img img{
+	
+	float: left;
+}
+.hotimg3{
+	margin: 0 24px;
+}
+.hotimg1,.hotimg4{
+	margin-bottom: 20px;
+}
+#hot_img1{
+	height: 500px;
+	width: 402px;
+	float: left;
+}
+
+/*慢享微醺*/
+#slow_enjoy{
+	width: 1200px;
+	margin: 0 auto;
+}
+#slow_enjoy #btm2 ul{
+	padding-left: 20px;
+}
+#slow_enjoy #btm2 ul li{
+	float: left;
+	padding: 0px 15px;
+	margin-top: 10px;
+	height: 13px;
+	line-height: 13px;
+	border-right: 1px solid #ccc;
+}
+#slow_enjoy #btm2 ul .last{
+	border: none;
+}
+#slow_enjoy #btm2 ul .last a{
+	color: #b60c59;
+}
+
+/****************************商品的列表********************************/
+/****************************商品的列表********************************/
+#product_list{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#product_left{
+	width: 390px;
+	float: left;
+}
+#product_left>div{
+	width: 340px;
+	height: 300px;
+	margin: 20px 0;
+	padding: 15px 25px 20px 25px;
+	background: #fff;
+	float: left;
+}
+#product_left div:hover{
+	opacity: 0.8;
+}
+#product_left img{
+	width: 340px;
+}
+#product_left a{
+	color: #333;
+}
+#product_left p{
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background: #f9f9f9;
+}
+#product_right{
+	float: left;
+	overflow: hidden;
+	width: 810px;
+}
+#product_right>li{
+	width: 218px;
+	height: 300px;
+	padding: 15px 25px 20px 25px;
+	background: #fff;
+	margin: 20px 0;
+	float: left;
+	border-right: 1px solid #eee;
+	overflow: hidden;	
+}
+#product_right img{
+	width: 198px;
+	height: 198px;
+}
+#product_right h3{
+	color: #a40e59;
+	font-weight: normal;
+	height: 36px;
+	line-height: 36px;
+}
+#product_right h3 a:hover{
+	color: #a40e59;
+	text-decoration: underline;
+}
+#product_right p{
+	height: 16px;
+	line-height: 16px;
+	padding: 12px 0 5px 0;
+	border-bottom: 1px dashed #eee;
+	z-index: 1;
+}
+#product_right div{
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: #a40c59;
+	background: #F9F9F9;
+	padding-left: 15px;
+}
+#product_right span{
+	
+}
+#product_right div a{
+	display: block;
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin: 2px 10px;
+	background: url(../img/icon-cart.png) no-repeat;
+}
+#product_right div a:hover{
+	background-position: 0 -31px;
+}
+#product_right img{
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+}
+#product_right img:hover{
+	transform: scale(1.1,1.1);
+}
+
+/*******************************底部视频*****************************/
+/*******************************底部视频*****************************/
+#radio0{
+	width: 100%;
+}
+#radio{
+	width: 1200px;
+	/*height: 280px;*/
+	margin: 0px auto;
+	padding: 20px 0px;
+	overflow: hidden;
+}
+#radio img{
+	width: 100%;
+	height: 280px;
+}
+
+
+
+
+
+
+
+
+
+
